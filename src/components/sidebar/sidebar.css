@@ -1,0 +1,105 @@
+.sidebar {
+  flex: 3.2;
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 100%;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+/* Handle */
+.sidebar:hover::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(175, 175, 177, 0.8);
+ 
+}
+
+.sidebarWrapper {
+  padding: 20px;
+}
+
+.sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+  height: 47px;
+}
+.sidebarListItem:hover{
+  background-color: gainsboro;
+}
+.sidebarListItemText{
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(85, 83, 83);
+}
+.sidebarIcon {
+  margin-right: 10px;
+  color: grey;
+}
+
+.sidebarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.sidebarHr {
+  margin: 20px 0;
+}
+
+.sidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#logout{
+  color:grey;
+  margin:0;
+  padding:0;
+  margin-left:60px;
+  width:50px;
+}
+#logout:hover{
+  cursor:pointer;
+}
+#select-mode{
+  background:;
+  color:grey;
+  margin:0;
+  padding:0;
+  margin-top:10px;
+  margin-left:60px;
+}
+.logout-hide,.mode-hide{
+  display:none;
+}
+.logout-show,.mode-show{
+  display:flex;
+}
+
+.day-mode{
+   background:white;
+}
+.night-mode{
+ background:black;
+}

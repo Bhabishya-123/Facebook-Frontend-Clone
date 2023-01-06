@@ -1,0 +1,153 @@
+.topbarContainer {
+  background-color: rgb(255, 255, 255);
+  height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(166,159,166,1);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(166,159,166,1);
+  box-shadow: 0px 1px 5px 0px rgba(166,159,166,1);
+}
+
+.topbarLeft {
+  flex: 3;
+  overflow:hidden;
+  height:54.5px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+  font-family: cursive;
+  opacity: 0.8;
+}
+
+.topbarLeft2 {
+  width:260px;
+  position: absolute;
+  left:100px;
+}
+
+.searchbar {
+  width: 90%;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left:20px;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput {
+    background-color: whitesmoke;
+  border: none;
+  width: 70%;
+  font-size: 15px;
+}
+
+.searchInput:focus {
+  outline: none;
+  opacity: 0.7;
+}
+
+.topbarCenter{
+  display: flex;
+  flex:4;
+}
+
+.topbarLinks {
+  cursor: pointer;
+  display: flex;
+  gap:10px
+}
+
+.topbarRight {
+  flex: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImg {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topbarIconCont{
+  height: 35px;
+  width: 35px;
+  background-color: rgb(228, 237, 245);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbarIconCont:hover{
+ background-color: gainsboro;
+}
+.topbarIconCont:active{
+  background-color: rgb(212, 203, 203);
+}
+.topbarHomeIcon::after{
+  content: ' ';
+  display: block;
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background-color: blue;
+  opacity: 0.5;
+}
+
+.topbarCenterIcon{
+  height: 45px;
+  width: 90px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbarCenterIcon:hover{
+  background-color: rgb(236, 233, 233);
+}

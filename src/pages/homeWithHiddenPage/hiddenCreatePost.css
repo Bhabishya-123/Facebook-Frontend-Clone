@@ -1,0 +1,168 @@
+/* createPost hide show css here */
+
+.showCreatePost{
+    width: 46.8%;
+    height: 380px;
+    display: flex;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    left: 27.2%;
+}
+
+.hideCreatePost{
+    display: none;
+}
+.createPostWrapper{
+    background-color:white;
+    width: 90%;
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.createPostTop{
+    display: flex;
+    align-items: center;
+}
+.createPostTitle{
+    flex: 2;
+    text-align: center;
+    margin: 0;
+    padding-top:5px;
+}
+.createPostProfileImage{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.createPostUsername{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+.createPostInput{
+    background-color: transparent;
+    margin-left: 15px;
+    width: 80%;
+    font-size: 18px;
+    border: none;
+    opacity: 0.8;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 25, 25);
+}
+.createPostInput:focus{
+    outline: none;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.createPostHr{
+    margin: 10px 0px;
+    opacity: 0.3;
+}
+
+.creatButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.createPostCloseIconCont{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.createPostCloseIconCont:hover{
+    opacity:0.9;
+}
+
+.createPostCenter{
+    display: flex;
+    flex-direction: column;
+}
+
+.createPostProfileCont{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.createPostInputCont{
+    height: 120px;
+    margin-top: 15px;
+}
+
+.createPostOptionsCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.createPostOption{
+    height: 60px;
+    border:1.5px solid rgb(236, 224, 224);
+    border-radius: 10px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.createPostOptionIcons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   cursor: pointer;
+   padding: 20px;
+}
+.createPostOptionTitle{
+    flex: 2;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.circleCont{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.circleCont:hover{
+   background-color: rgb(230, 230, 230);
+}
+
+.createPostButtonCont{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.createPostButton{
+    height: 40px;
+    background-color: rgb(65, 65, 173);
+    border:1.5px solid rgb(236, 224, 224);
+    border-radius: 10px;
+    width: 95%;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+    opacity: 0.8;
+}
+.createPostButton:hover{
+    opacity: 1;
+}

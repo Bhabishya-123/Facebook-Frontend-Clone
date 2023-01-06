@@ -37,7 +37,7 @@ export default function Login() {
                 </Link>
               </div>
               <span>
-                <a className="forgetPwd" href=" ">
+                <a className="forgetPwd" href="#email?">
                   Forgot your password?
                 </a>
               </span>

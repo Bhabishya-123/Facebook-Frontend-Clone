@@ -85,10 +85,10 @@ export default function Post({post}) {
       <div className="postBottomLeft">
         <div style={{display:'flex'}}>
         <div className="likeIconCont">
-        <img className='likeIcon' onClick={likeHandler} src={"./assets/like.png"} alt="" />
+        <img className='likeIcon' onClick={likeHandler} src={"../assets/like.png"} alt="" />
         </div>
         <div className="likeIconCont">
-        <img className='likeIcon' onClick={likeHandler}src={"./assets/heart.png"} alt="" />
+        <img className='likeIcon' onClick={likeHandler}src={"../assets/heart.png"} alt="" />
           </div>
         </div>
         <span className="postLikeCounter">{like} people like it</span>

@@ -6,15 +6,14 @@ import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import { Users } from "../../dummyData";
 
 function Profile() {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
-  return (
+    return (
     <div className="profile">
       <Topbar />
       <div className="profileContainer">
         <div className="profileCenter">
           <div className="profileCenterTop">
             <img
-              src={PF+"coverpic.jpg"}
+              src={"../assets/coverpic.jpg"}
               alt="coverphoto"
               className="coverPhoto"
             />
@@ -27,7 +26,7 @@ function Profile() {
             <div className="profileCenterDownCont">
               <div className="profilePhotoCont">
                 <img
-                  src={PF+"person/1.jpeg"}
+                  src={"../assets/person/1.jpeg"}
                   alt="profiephoto"
                   className="profilePhoto"
                 />
@@ -79,7 +78,7 @@ https://www.youtube.com/c/FutureTechnical88
                   <div key={user.id} className="mutualFriend">
                     <img
                       className="profileMutualFriendImg"
-                      src={PF+user.profilePicture}
+                      src={user.profilePicture}
                       alt=""
                     />
                     <span className="profileMutualFriendName">

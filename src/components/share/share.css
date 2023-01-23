@@ -75,3 +75,21 @@
    font-size: 26px;
 }
 
+
+@media only screen and (max-width: 900px){
+    .shareOptionText{
+     display: flex;
+    }
+    .shareOptionLongText{
+    display: none;
+    }
+   }
+
+   @media only screen and (min-width: 900px){
+    .shareOptionLongText{
+     display: flex;
+    }
+    .shareOptionText{
+    display: none;
+    }
+   }

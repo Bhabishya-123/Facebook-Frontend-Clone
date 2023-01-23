@@ -151,3 +151,14 @@
 .topbarCenterIcon:hover{
   background-color: rgb(236, 233, 233);
 }
+
+@media only screen and (max-width: 1000px){
+ .topbarCenter{
+  display: none;
+ }
+}
+@media only screen and (max-width: 600px){
+ .searchbar{
+  display: none;
+ }
+}

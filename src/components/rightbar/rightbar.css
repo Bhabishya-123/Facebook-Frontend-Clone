@@ -48,3 +48,8 @@
   opacity: 0.3;
 }
 
+@media only screen and (max-width: 600px){
+  .rightbar{
+   display: none;
+  }
+ }

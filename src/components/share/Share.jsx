@@ -19,20 +19,29 @@ export default function Share({changeState}) {
              <div className="shareOptions">
              <div className="shareOption">
                     <VideoCameraBackIcon htmlColor='red' className='shareIcon'/>
-                    <span className="shareOptionText">
+                    <span className="shareOptionLongText">
                         Live video
+                    </span>
+                    <span className="shareOptionText">
+                        Live
                     </span>
                 </div>
                 <div className="shareOption">
                     <PermMediaIcon htmlColor='green' className='shareIcon'/>
-                    <span className="shareOptionText">
+                    <span className="shareOptionLongText">
                         Photo/video
+                    </span>
+                    <span className="shareOptionText">
+                        Gallery
                     </span>
                 </div>
                 <div className="shareOption">
                     <EmojiEmotionsIcon htmlColor='orange' className='shareIcon'/>
-                    <span className="shareOptionText">
+                    <span className="shareOptionLongText">
                        Feeling/Activity
+                    </span>
+                    <span className="shareOptionText">
+                       Feel
                     </span>
                 </div>
              </div>

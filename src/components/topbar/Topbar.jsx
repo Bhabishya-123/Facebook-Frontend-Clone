@@ -8,13 +8,12 @@ import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 import {Link} from 'react-router-dom'
 
 export default function Topbar() {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   return (
     <>
     <div className="topbarContainer">
       <div className="topbarLeft">
         <Link  to="/" style={{textDecoration:'none'}}>
-        <img height='60px' src={PF+"/icon.png"} alt="" />
+        <img height='60px' src={"assets/icon.png"} alt="" />
         </Link>
       </div>
       <div className="topbarLeft2">

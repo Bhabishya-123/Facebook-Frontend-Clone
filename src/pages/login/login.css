@@ -108,3 +108,25 @@ background-color: aliceblue;
   cursor: pointer;
   background-color: rgb(18, 126, 54);
 }
+
+
+@media only screen and (max-width: 600px){
+
+.loginWrapper{
+  flex-direction:column;
+}
+.loginLeft{
+  height:80px;
+  width:100%;
+}
+.loginLogo{
+  font-size:60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginLeftDesc{
+  display:none;
+}
+
+}

@@ -27,6 +27,7 @@
     .registerLeftDesc{
       font-size: 30px;
       opacity: 0.9;
+      width:90%;
     }
     .registerRight{
         height: 600px;
@@ -112,3 +113,33 @@
     .registerUsername{
       margin-top: 20px;
     }
+
+
+    @media only screen and (max-width: 600px){
+
+      .registerWrapper{
+        flex-direction:column;
+      }
+      .registerLeft{
+        height:50px;
+        width:100%;
+      }
+      .registerLogo{
+        font-size:60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .registerLeftDesc{
+        display:none;
+      }
+      
+      }
+
+      @media only screen and (max-width: 768px){
+
+      .registerLeft{
+        width:45%;
+      }
+
+      }

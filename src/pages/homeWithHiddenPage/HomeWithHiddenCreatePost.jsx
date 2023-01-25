@@ -54,11 +54,11 @@ export default function CreatePost() {
       </div>
       <div className="createPostOptionsCont">
         <div className="createPostOption">
-          <span className="createPostOptionTitle"><b>Add to your post</b></span>
+          <span className="createPostOptionTitle"><b>Add <span>to your post</span></b></span>
           <div className="createPostOptionIcons">
             <span className="circleCont">
             <PermMediaIcon
-              style={{ fontSize: "26px" }}
+              style={{ fontSize: "26px"}}
               htmlColor="green"
               className="createPostIcon"
             />

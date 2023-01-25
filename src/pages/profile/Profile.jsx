@@ -4,11 +4,17 @@ import Feed from "../../components/feed/Feed";
 import Topbar from "../../components/topbar/Topbar";
 import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import { Users } from "../../dummyData";
+import { Link } from "react-router-dom";
 
 function Profile() {
     return (
     <div className="profile">
       <Topbar />
+      <div className="fbIcon">
+        <Link  to="/" style={{textDecoration:'none'}}>
+        <img height='60px' src={"../assets/icon.png"} alt="" />
+        </Link>
+      </div>
       <div className="profileContainer">
         <div className="profileCenter">
           <div className="profileCenterTop">
@@ -19,7 +25,7 @@ function Profile() {
             />
             <button className="editCoverPhotoBtn">
               <CameraAltIcon />
-              <b>Edit Cover Photo</b>
+              <b>Edit <span className="editPicText">Cover Photo</span></b>
             </button>
           </div>
           <div className="profileCenterDown">
@@ -85,7 +91,7 @@ https://www.youtube.com/c/FutureTechnical88
                       {user.username}
                     </span>
                   </div>
-                );
+                )
               })}
             </div>
           </div>
@@ -95,7 +101,7 @@ https://www.youtube.com/c/FutureTechnical88
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default Profile;

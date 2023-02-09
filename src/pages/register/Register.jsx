@@ -14,7 +14,7 @@ export default function Register() {
             </div>
             <div className="registerRight">
             <div className="registerBox">
-            <form action="#" className='registerForm'>
+            <form action="" className='registerForm'>
                     <div class="registerUsername">
                         <input className='registerInput' placeholder='Username' type="text" id="username-l"/>
                     </div>

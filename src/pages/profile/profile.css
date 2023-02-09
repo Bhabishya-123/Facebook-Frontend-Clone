@@ -152,7 +152,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: clamp(50%,400px,400px);
 }
 .fbIcon{
-    display:none;
+    display:flex;
     position:fixed;
     top:0px;
     left:0px;
@@ -199,12 +199,6 @@ font-family: Arial, Helvetica, sans-serif;
  .editPicText{
    display:none;
  }
-   }
-
-   @media only screen and (max-width: 820px){
-    .fbIcon{
-        display:flex
-    }
    }
 
    @media only screen and (min-width: 768px){
